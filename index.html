@@ -629,7 +629,7 @@
 
     <p>
       Backbone's only hard dependency is
-      <a href="http://underscorejs.org/">Underscore.js</a> <small>( >= 1.8.3)</small>.
+      <a href="http://underscorejs.org/">Underscore.js</a> <small>( >= 1.12.1)</small>.
       For RESTful persistence and DOM manipulation with <a href="#View">Backbone.View</a>,
       include <b><a href="https://jquery.com/">jQuery</a></b> ( >= 1.11.0).
       <i>(Mimics of the Underscore and jQuery APIs, such as
@@ -4553,6 +4553,16 @@ ActiveRecord::Base.include_root_in_json = false
     </div>
 
     <h2 id="changelog">Change Log</h2>
+
+    <b class="header" id="1.6.2">1.6.2</b> &mdash; <small><i>Apr. 16, 2025</i></small>
+    &mdash; <a href="https://github.com/jashkenas/backbone/compare/1.6.1...1.6.2">Diff</a>
+    &mdash; <a href="https://cdn.statically.io/gh/jashkenas/backbone/1.6.2/index.html">Docs</a>
+    <br />
+    <ul style="margin-top: 5px;">
+      <li>
+        Upgrade underscore dependency to fix <a href="https://nvd.nist.gov/vuln/detail/CVE-2021-23358">CVE-2021-23358</a>
+      </li>
+    </ul>
 
     <b class="header" id="1.6.1">1.6.1</b> &mdash; <small><i>Apr. 1, 2025</i></small>
     &mdash; <a href="https://github.com/jashkenas/backbone/compare/1.6.0...1.6.1">Diff</a>
